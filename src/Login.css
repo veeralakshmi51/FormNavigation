@@ -1,0 +1,64 @@
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 100px;
+    border-radius:0%;
+    position:static;
+    background-color:#dfd8e4;
+    align-items:center;
+    justify-content: center;
+    margin-top: 400px;
+    
+   
+  }
+  
+  h1 {
+    text-align:inherit;
+    color: #0a1016;
+  }
+  
+  div {
+    margin-bottom: 40px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+   
+  
+    
+  }
+  button[type="submit"] {
+    display:-ms-flexbox;
+    width: 40%;
+    padding: 20px;
+    background-color: #007bff;
+    border-radius: 20px;
+    cursor: pointer;
+  
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+   
+  }
+  .input img{
+    margin:0px 30px;
+}
+ 
+input[type="password"],
+  select {
+    width: 65%;
+    padding: 8px;
+    border: 10px solid #ccc;
+    border-radius: 15px;
+  }
+  input[type="text"],
+  select {
+    width: 65%;
+    padding: 8px;
+    border: 10px solid #ccc;
+    border-radius: 15px;
+  }
